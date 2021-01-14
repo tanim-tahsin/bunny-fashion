@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+header {
+    background: #FFFBF0;
+    padding-bottom: 50px;
+}
+.header-btn{
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #93AB30;
+    color: #fff;
+    font-weight: 500;
+}
+.header-left-side h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 200;
+    font-size: 70px;
+    line-height: 60px;
+    color: #363958;
+}
+
+.header-left-side h2:first-child {
+    color: #FABE4C;
+}
+
+p {
+    font-weight: 500;
+    color: #363958;
+}
+
+.header-right-img {
+    width: 80%;
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+.img-logo {
+    width: 25%;
+}
+
+.nav-link {
+    font-weight: bold;
+    margin: 10px 20px 10px 10px;
+}
+
+button {
+    padding: 0px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #93AB30;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* header area end  */
+
+/* This is wowman jacket area start */
+
+.woman-area {
+    margin-bottom: 80px;
+}
+
+.woman-titel {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 200;
+    font-size: 50px;
+    color: #363958;
+    margin: 35px 0px 30px 0px;
+}
+
+.card-img-top {
+    padding: 30px;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+
+.card {
+    padding: 20px;
+    border: none;
+    box-shadow: 2px 2px 5px 5px #F9F9F9;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 23px;
+    color: #363958;
+}
+
+.card-price {
+    font-weight: bold;
+    font-size: 35px;
+    color: #FABE4C;
+}
+.c-footer button{
+    margin-left: 60px;
+}
+
+/* card area end */
+
+/* This is footer area start  */
+.footer-area{
+    margin-bottom: 100px;
+}
+
+.footer-left-cards {
+    margin: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 4px #e0ebeb;
+}
+
+
+.footer-left-cards img {
+    width: 60%;
+}
+
+@media only screen and (max-width: 752px) {
+
+    /* This is header are */
+    .img-logo {
+        width: 55%;
+    }
+    .header-left-side{
+        margin-top: 40px;
+    }
+    .header-right-side{
+        text-align: center;
+    }
+    .footer-left-cards:last-child{
+        margin-bottom: 80px;
+    }
+    
+}
+
+@media only screen and (max-width: 575px) {
+
+    /* This is header are */
+    .img-logo {
+        width: 65%;
+    }
+    .header-left-side h2{
+        font-size: 50px;
+        line-height: 45px;
+    }
+    .header-left-side button{
+        margin-bottom: 20px;
+    }
+    .header-right-side{
+        text-align: center;
+    }
+
+    /* This is footer are */
+    .footer-left-cards{
+        text-align: center;
+    }
+    .footer-left-cards img {
+        width: 30%;
+    }
+}
+
+/*footer*/
+.foot-color{
+    color: #e0ebeb;
+}
